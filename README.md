@@ -1,4 +1,4 @@
 # mlops-boaz
 
-This is repository for mlops study \n
-reference: https://mlops-for-mle.github.io/tutorial/
+This is repository for mlops study
+* reference: https://mlops-for-mle.github.io/tutorial/
