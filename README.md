@@ -1,4 +1,3 @@
 # mlops-boaz
 
-
-boaz adv study
+This is repository for mlops study
