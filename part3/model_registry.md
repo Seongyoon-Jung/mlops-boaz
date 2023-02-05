@@ -137,13 +137,11 @@ services:
 - 실행 결과 확인
     
     localhost:9001
-    
-    ![스크린샷 2023-02-05 오후 4.02.25.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/72dadabf-ef86-4598-8e35-364c26c2801b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-02-05_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.02.25.png)
+	![스크린샷 2023-02-05 오후 4 02 25](https://user-images.githubusercontent.com/92080209/216811279-09fbdb5f-fc38-436f-b63a-bf399d5d48ae.png)
     
     localhost:5001
-    
-    ![스크린샷 2023-02-05 오후 4.04.26.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6ffa8d3d-9c84-4728-893b-24b7e5f06d64/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-02-05_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.04.26.png)
-    
+	![스크린샷 2023-02-05 오후 4 04 26](https://user-images.githubusercontent.com/92080209/216811308-038f2bda-29f4-4008-b1db-893e9a49b73f.png)
+
 
 # 2. Save Model to Registry
 
@@ -218,13 +216,13 @@ df.to_csv("data.csv", index=False
 `$ python save_model_to_registry.py --model-name "sk_model”`
 
 - 실행 결과
+    ![스크린샷 2023-02-05 오후 4 24 26](https://user-images.githubusercontent.com/92080209/216811343-6d873888-295b-4478-9b24-93070c4b0986.png)
+
     
-    ![스크린샷 2023-02-05 오후 4.24.26.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c2582a84-b181-43ba-81e7-74b19d11e95b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-02-05_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.24.26.png)
-    
-    모델 저장 결
-    
-    ![스크린샷 2023-02-05 오후 4.27.59.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/34067a6e-f96e-4931-aaaf-fb4dbdb83724/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-02-05_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.27.59.png)
-    
+    모델 저장 결과
+	![스크린샷 2023-02-05 오후 4 27 59](https://user-images.githubusercontent.com/92080209/216811356-423b2aab-bc26-49a4-8f66-6cf5df37cd23.png)
+	
+	
 
 # 3. Load Model from registry
 
@@ -282,3 +280,7 @@ print("Valid Accuracy :", valid_acc)
 `$ python load_model_from_registry.py --model-name "sk_model" --run-id "RUN_ID”`
 
 - 실행 결과
+	![스크린샷 2023-02-05 오후 4 29 51](https://user-images.githubusercontent.com/92080209/216811374-2521f07b-14a5-4ab6-bec4-b4cdc472bfa0.png)
+	![스크린샷 2023-02-05 오후 4 30 29](https://user-images.githubusercontent.com/92080209/216811376-0627761e-8d2e-4078-a51e-a8949db53b9d.png)
+
+	
