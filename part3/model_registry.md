@@ -1,8 +1,7 @@
 # 3. Model Registry
 
 # 1. MLflow Setup
-
-![스크린샷 2023-02-05 오후 4.57.02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f68ac43-8d51-485c-9905-06f2a7e0ac0d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-02-05_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.57.02.png)
+![스크린샷 2023-02-05 오후 6 22 27](https://user-images.githubusercontent.com/92080209/216811223-fba5695b-121f-433e-88cd-e09cb8429c1a.png)
 
 ## docker-compse.yaml
 
