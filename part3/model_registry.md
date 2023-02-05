@@ -70,13 +70,13 @@ services:
       retries: 3
 ```
 
-<Artifact Store>
+#### <Artifact Store>
 
 Artifact Store는 mlflow에서 학습된 모델을 저장하는 Model Registry로써 이용하기 위한 스토리지 서버.
 
 → 아티팩트는 잡이 완료된 후에도 데이터를 유지할 수 있게 해준다. 아티팩트는 워크플로우 실행 중 생산된 파일, 파일의 컬렉션이다. Job 중간에 Artifact를 사용하여 데이터를 통과시킬 수 있으며, 워크 플로우 실행이 끝난 후에도 빌드 혹은 테스트 결과를 보존할 수 있다.
 
-<MinIO- Minimal Object Storage>
+#### <MinIO- Minimal Object Storage>
 
 MinIO는 AWS S3 SDK와 호환되는 오픈소스 오브젝트 스토리지 서버 제품이다. 오브젝트 스토리지를 사용하고 있기 때문에 파일에 대한 직접적인 수정은 불가능하며, 항상 덮어쓰는 방식이 사용된다. GO로 제작됨.
 
