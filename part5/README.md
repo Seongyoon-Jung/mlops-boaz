@@ -8,9 +8,7 @@
 하지만, 로컬에서 모델을 사용할 때, 모델의 크기가 커서, 또는 설치되어 있는 패키지 버전이 달라서 등 다양한 문제가 발생할 수 있음.
 
 이를 해결하기 위해 모델을 실행할 수 있는 환경으로 데이터를 전송하고, 그에 대한 응답을 사용자가 받는 방식의 구조를 사용. 이를 **Request-Respose 방식**이라고 불림. 
-
-![출처: [https://phpenthusiast.com/blog/what-is-rest-api](https://phpenthusiast.com/blog/what-is-rest-api)](4%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1_Model%20Deployment%20FastAPI%2033b2c3c397274a4cabf1df08217f87b7/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-02-13_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_2.55.45.png)
-
+![스크린샷 2023-02-13 오후 5 17 17](https://user-images.githubusercontent.com/92080209/218405516-77211b2b-1955-4c32-9ac9-cd7381a3ecc5.png)
 출처: [https://phpenthusiast.com/blog/what-is-rest-api](https://phpenthusiast.com/blog/what-is-rest-api)
 
 Request-Response를 하기 위해서는 요청과 응답을 어떻게 할 것인가에 대해서 사전에 정의하는 절차가 필요함. 이 절차중 가장 대표적인 방법을 REST API 이다.
@@ -166,8 +164,8 @@ def read_item(skip: int = 0, limit: int = 10):
 실행:  `$ uvicorn crud_path:app --reload`
 
 - 결과: [`http://localhost:8000/docs`](http://localhost:8000/docs)
-    
-    ![스크린샷 2023-02-13 오후 4.47.00.png](4%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1_Model%20Deployment%20FastAPI%2033b2c3c397274a4cabf1df08217f87b7/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-02-13_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_4.47.00.png)
+    ![스크린샷 2023-02-13 오후 4 47 07](https://user-images.githubusercontent.com/92080209/218405655-a95c1520-ee46-4f34-b232-2e9c1c6d17db.png)
+
     
 
 ## 3.1. FastAPI CRUD (Pydantic)
@@ -239,8 +237,8 @@ def delete_user(name: str):
 실행: `$ uvicorn crud_pydantic:app --reload`
 
 - 결과
-    
-    ![스크린샷 2023-02-13 오후 5.08.35.png](4%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1_Model%20Deployment%20FastAPI%2033b2c3c397274a4cabf1df08217f87b7/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-02-13_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_5.08.35.png)
+    ![스크린샷 2023-02-13 오후 5 09 17](https://user-images.githubusercontent.com/92080209/218405702-abbcac51-d9df-4ea5-811f-26cfd564f319.png)
+
     
 
 <aside>
