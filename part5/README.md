@@ -7,8 +7,11 @@
 
 하지만, 로컬에서 모델을 사용할 때, 모델의 크기가 커서, 또는 설치되어 있는 패키지 버전이 달라서 등 다양한 문제가 발생할 수 있음.
 
-이를 해결하기 위해 모델을 실행할 수 있는 환경으로 데이터를 전송하고, 그에 대한 응답을 사용자가 받는 방식의 구조를 사용. 이를 **Request-Respose 방식**이라고 불림. 
-![스크린샷 2023-02-13 오후 5 17 17](https://user-images.githubusercontent.com/92080209/218405516-77211b2b-1955-4c32-9ac9-cd7381a3ecc5.png)
+이를 해결하기 위해 모델을 실행할 수 있는 환경으로 데이터를 전송하고, 그에 대한 응답을 사용자가 받는 방식의 구조를 사용. 이를 **Request-Respose 방식**이라고 불림.
+
+![스크린샷 2023-02-13 오후 4 47 07](https://user-images.githubusercontent.com/92080209/218406028-0300068d-f760-4582-bc64-cb17f389c305.png)
+
+
 출처: [https://phpenthusiast.com/blog/what-is-rest-api](https://phpenthusiast.com/blog/what-is-rest-api)
 
 Request-Response를 하기 위해서는 요청과 응답을 어떻게 할 것인가에 대해서 사전에 정의하는 절차가 필요함. 이 절차중 가장 대표적인 방법을 REST API 이다.
