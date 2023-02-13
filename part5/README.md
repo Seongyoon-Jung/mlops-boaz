@@ -9,8 +9,7 @@
 
 이를 해결하기 위해 모델을 실행할 수 있는 환경으로 데이터를 전송하고, 그에 대한 응답을 사용자가 받는 방식의 구조를 사용. 이를 **Request-Respose 방식**이라고 불림.
 
-![스크린샷 2023-02-13 오후 4 47 07](https://user-images.githubusercontent.com/92080209/218406028-0300068d-f760-4582-bc64-cb17f389c305.png)
-
+![스크린샷 2023-02-13 오후 5 19 33](https://user-images.githubusercontent.com/92080209/218406152-ea96b5d3-f4d3-4ed1-b1c6-d00599707105.png)
 
 출처: [https://phpenthusiast.com/blog/what-is-rest-api](https://phpenthusiast.com/blog/what-is-rest-api)
 
