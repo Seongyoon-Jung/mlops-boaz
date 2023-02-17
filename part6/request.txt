@@ -1,0 +1,38 @@
+{
+"mean_radius": 9.173,
+"mean_texture": 13.86,
+"mean_perimeter": 59.2,
+"mean_area": 260.9,
+"mean_smoothness": 0.07721,
+"mean_compactness": 0.08751,
+"mean_concavity": 0.05988,
+"mean_concave_points": 0.0218,
+"mean_symmetry": 0.2341,
+"mean_fractal_dimension": 0.06963,
+"radius_error": 0.4098,
+"texture_error": 2.265,
+"perimeter_error": 2.608,
+"area_error": 23.52,
+"smoothness_error": 0.008738,
+"compactness_error": 0.03938,
+"concavity_error": 0.04312,
+"concave_points_error": 0.0156,
+"symmetry_error": 0.04192,
+"fractal_dimension_error": 0.005822,
+"worst_radius": 10.01,
+"worst_texture": 19.23,
+"worst_perimeter": 65.59,
+"worst_area": 310.1,
+"worst_smoothness": 0.09836,
+"worst_compactness": 0.1678,
+"worst_concavity": 0.1397,
+"worst_concave_points": 0.05087,
+"worst_symmetry": 0.3282,
+"worst_fractal_dimension": 0.0849
+}
+
+
+
+{
+"mean_radius": 9.173, "mean_texture": 13.86, "mean_perimeter": 59.2, "mean_area": 260.9, "mean_smoothness": 0.07721, "mean_compactness": 0.08751, "mean_concavity": 0.05988, "mean_concave_points": 0.0218, "mean_symmetry": 0.2341, "mean_fractal_dimension": 0.06963, "radius_error": 0.4098, "texture_error": 2.265, "perimeter_error": 2.608, "area_error": 23.52, "smoothness_error": 0.008738, "compactness_error": 0.03938, "concavity_error": 0.04312, "concave_points_error": 0.0156, "symmetry_error": 0.04192, "fractal_dimension_error": 0.005822, "worst_radius": 10.01, "worst_texture": 19.23, "worst_perimeter": 65.59, "worst_area": 310.1, "worst_smoothness": 0.09836, "worst_compactness": 0.1678, "worst_concavity": 0.1397, "worst_concave_points": 0.05087, "worst_symmetry": 0.3282, "worst_fractal_dimension": 0.0849
+}

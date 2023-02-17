@@ -9,8 +9,8 @@ WORKDIR /usr/app
 RUN pip install -U pip &&\
     pip install scikit-learn pandas psycopg2-binary
 
-COPY data_generator_cancerData.py data_generator_cancerData.py
+COPY data_generator.py data_generator.py
 
-ENTRYPOINT ["python", "data_generator_cancerData.py", "--db-host"]
-# Change CMD to solve host finding error
+ENTRYPOINT ["python", "data_generator.py", "--db-host"]
+
 CMD ["localhost"]

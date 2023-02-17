@@ -11,7 +11,7 @@ services:
       POSTGRES_PASSWORD: yoon
       POSTGRES_DB: cancer-database
     healthcheck:
-      test: ["CMD", "pg_isready", "-q", "-U", "myuser", "-d", "cancer-database"]
+      test: ["CMD", "pg_isready", "-q", "-U", "yoon", "-d", "cancer-database"]
       interval: 10s
       timeout: 5s
       retries: 5
