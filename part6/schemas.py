@@ -1,7 +1,6 @@
 # schemas.py
 from pydantic import BaseModel
 
-
 class PredictIn(BaseModel):
     mean_radius: float
     mean_texture: float
