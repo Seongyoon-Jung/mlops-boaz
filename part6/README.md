@@ -135,11 +135,13 @@ def predict(data: PredictIn) -> PredictOut:
 
 `$ uvicorn app:app --reload`
 
-<img width="1149" alt="스크린샷 2023-02-17 오후 5 57 20" src="https://user-images.githubusercontent.com/92080209/219996607-db3a38b1-2281-4d2f-bdd3-7bd6a79935a9.png">
+<img width="1425" alt="스크린샷 2023-02-17 오후 6 32 21" src="https://user-images.githubusercontent.com/92080209/219998844-2794810b-3f60-45a9-b7a8-d7375333b033.png">
 
-<img width="715" alt="스크린샷 2023-02-17 오후 5 57 45" src="https://user-images.githubusercontent.com/92080209/219996620-be8f51a6-7292-4f06-9b70-ff823a31ddf7.png">
 
-<img width="1424" alt="스크린샷 2023-02-17 오후 5 59 27" src="https://user-images.githubusercontent.com/92080209/219996628-a9aa2792-89f1-49bd-87b4-a01dde0362f0.png">
+<img width="1382" alt="스크린샷 2023-02-17 오후 6 32 33" src="https://user-images.githubusercontent.com/92080209/219998872-a771d7d3-eb26-4f07-a744-0c83776efa43.png">
+
+
+<img width="1398" alt="스크린샷 2023-02-17 오후 6 32 48" src="https://user-images.githubusercontent.com/92080209/219998900-3df2eabc-60c3-4541-b152-4492baf94a07.png">
 
 
 - Request Body 의 형태에 알맞게 데이터를 전달하면 Response Body 로 inference 결과가 반환됨.
