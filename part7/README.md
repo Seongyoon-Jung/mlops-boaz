@@ -1,7 +1,5 @@
 # Chapter 7. Kafka
 
-# 6주차_kafka
-
 <img width="632" alt="스크린샷 2023-02-26 오후 5 38 42" src="https://user-images.githubusercontent.com/92080209/221400575-d3302b39-aae7-41df-b4b0-1895e191d712.png">
 
  4주차의 Stream Serving을 구현하기 위해서 실시간으로 데이터를 전달할 수 있는 데이터 파이프라인을 구축해야한다. 이번 주차에서는 Kafka를 사용하여 데이터 파이프라인을 구축해본다.
