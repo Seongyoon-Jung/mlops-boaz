@@ -150,9 +150,13 @@ kcat 명령어를 이용하여 해당 토픽에 데이터가 쌓이고 있는 �
 
 <aside>
 💡 kcat?
+
 → kafka cat의 뜻으로 Apach kafka의 producer와 consumer도구이다.
+
 * consumer 모드에서 kcat은 주제 및 파티션에서 메세지를 읽고 출력한다.
+
 * producer 모드에서는 표준 입력(stdin)에서 메세지를 읽고, topic에 대해서 데이터를 보낼 수 있다.
+
 * 메타데이터 목록 모드( -L)에서 kcat은 Kafka cluster와 topic, partition, replica 및 동기화 복제본(ISR)의 현재 상태를 표시합니다.
 
 </aside>
